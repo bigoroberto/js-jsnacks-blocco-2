@@ -5,7 +5,7 @@ se è dispari stampa il numero successivo */
 var numero_utente = parseInt(prompt("Inserisci un numero"));
 
   if(numero_utente % 2 === 0){
-    console.log("Il tuo numero è pari")
+    console.log("Il tuo numero è pari " + numero_utente)
   }else{
-    console.log("il tuo numero è dispari");
+    console.log("il tuo numero è dispari, stampo il successivo " + (numero_utente+1));
   }
